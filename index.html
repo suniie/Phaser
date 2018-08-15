@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Phaser - Making your first game, part 1</title>
+	<script type="text/javascript" src="phaser_lib/phaser.min.js"></script>
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<script type="text/javascript">
+
+var game = new Phaser.Game(100, 100, Phaser.AUTO, '', { preload: preload, create: create, update: update });
+
+function preload() {
+	alert("I am an alert box!");
+	//game.stage.backgroundColor = '#157BC4';
+	//game.load.image('apple','asset/apple.jpg');
+	//gama.load.image('lady','asset/small_lady.png');
+}
+
+function create() {
+//platforms.create(20, 20, 'apple');
+
+}
+
+function update() {
+}
+
+</script>
+test game
+</body>
+</html>
